@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2 >Straw Hats Recruitment</h2>
+    <h3>Application Form</h3>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="Name">
+        </div><br>
+        <div>
+            <label for="father">Father's Name</label>
+            <input type="text" name="name" id="father">
+        </div><br>
+        <div>
+            <label for="mother">Mother's Name</label>
+            <input type="text" name="name" id="mother">
+        </div><br>
+        <div>
+            Date Of Birth <input type="date" name="date" >
+        </div><br>
+        <div>
+            Gender: Male<input type="radio" name="gender" > FeMale<input type="radio" name="gender" >
+
+        </div><br>
+        <div>
+            write about your self: <br> <textarea name="about"  cols="90" rows="10"></textarea>
+        </div><br>
+        <div>
+            Bounty: <input type="number" name="bounty"> berries
+        </div><br>
+        <div>
+           Role: <select name="crew role" >
+            <option value="swor">Swordsman</option>
+            <option value="fight">Brawler</option>
+            <option value="eat">Cook</option>
+            <option value="snipe">Sniper</option>
+            <option value="mus">Musician</option>
+           </select>
+        </div>
+
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset">
+        </div>
+
+        
+    </form>
+    
+</body>
+</html>
